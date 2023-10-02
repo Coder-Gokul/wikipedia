@@ -158,7 +158,10 @@ input {
 /* media query */
 
 @media only screen and (max-device-width: 525px) and (orientation : portrait){
-    .wiki{
-        display: none;
-    }
+  .wiki {
+    display: none;
+  }
+  input {
+    width: 200px;
+  }
 }
